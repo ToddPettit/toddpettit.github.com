@@ -137,6 +137,10 @@
 		width: 200px !important;
 	}
 	
+	.no-underline {
+		text-decoration: none;
+	}
+	
 	.disable-select {
 		-webkit-user-select: none;  
 		-moz-user-select: none;    
@@ -174,7 +178,7 @@
 		width: 220px;
 		position:relative;
 		background-color:clear;
-		display:none;
+		display:block;
 		clear: both;
 	}
 	
@@ -307,8 +311,15 @@
 		background-color: rgb(255,255,255);
 	}	
 	
+	h2 {
+		font-size: 2.2em;
+	}
+	
 	h3 {
-		font-size: 2em;
+		font-size: 1.7em;
+	}
+	
+	h2, h3 {
 		text-align: center;
 		width: 100%;
 		color: rgba(153,0,0,0.89);
@@ -331,9 +342,11 @@
 		font-size: 1.4em;
 	}
 	
-	.container-h3 {
-		padding-top: 2px;
-		width: 220px;
+	.container-h2 {
+		height: 50px; 
+		width: 100%; 
+		min-width: 320px; 
+		margin-top: 30px;
 	}
 	
 	.display-none {
@@ -499,14 +512,6 @@
 		position:absolute;
 		z-index: 100;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	/* 3D Search */
 	
