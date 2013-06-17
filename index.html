@@ -4,6 +4,11 @@
 		<link rel="stylesheet" type="text/css" href="main.css">
 		<link rel="stylesheet" type="text/css" href="background-image_data_uris.css">
 		<title>Todd Pettit 2013</title>
+		<script type="text/javascript" src="ImgSrc.js">
+			$("#Content").fadeOut(0);
+		</script>
+		<script type="text/javascript" src="jquery-1.9.1.js"></script>
+		<script type="text/javascript" src="modernizr.js"></script>
 	</head>
 	<body id="main">
 		<div id="Wrapper">
@@ -14,7 +19,7 @@
 					<div class="spacer"></div>
 					
 					<div id="Name" class="full-name">
-						<a class="name-font disable-select">Todd Pettit</a>
+						<a class="name-font disable-select no-underline" href="http://www.linkedin.com/profile/view?id=122085176&trk=hb_tab_pro_top">Todd Pettit</a>
 					</div>
 					
 					<div>
@@ -29,7 +34,7 @@
 								</a>
 							</li>
 							<li>
-								<a id="BlogLink" href="./blog.html" class="trailing-button disable-select">
+								<a id="BlogLink" href="#" class="trailing-button disable-select">
 									<div id="BlogButton" class="button disable-select">
 										<noscript>
 											<img id="BlogIcon" alt="b^)" src="blog_icon.png">
@@ -43,7 +48,6 @@
 							<li id="BlogActive" class="active-indicator"/>
 						</ul>
 					</div>
-					
 					<div id="SearchButtonWrapper">		
 						<div class="search-wrapper">
 							<div class="search-container">
@@ -57,7 +61,6 @@
 							</div>
 						</div>
 					</div>
-						
 				</header>
 			</div>
 			
@@ -70,49 +73,48 @@
 				</div>
 				
 				<div id="Content">
-					<div style="height: 50px; width: 100%; min-width: 320px; margin-top: 30px;">
-						<div id="InfoHeaderLeftMargin" style="height: 40px; width: 190px; float:left;">
-						</div>
-						<div class="container-h3" style="float:left; margin-left:10px">
-							<h3 class="content-font">Info About Me</h3>
-						</div>
-						<div id="SocialWrapper" style="float:right">
-							<a href="http://www.facebook.com/tpettit2"><img class="social-icon" alt="Facebook" src="facebook-icon.png"></a>
-							<a href="http://www.linkedin.com/profile/view?id=122085176&trk=hb_tab_pro_top"><img class="social-icon" alt="LinkedIn" src="linkedin-icon.png"></a>
-						</div>
-					</div>
-					
 					<div id="MainText">
-						<p class="content-font light-font">
-							The prior volume refreshes an appointed day. 
-							Red breathes! Red pinks the evil burst. The wanted vinyl spikes the postcard. 
-							White pauses with red. A mob swims. White bests the cry. Whatever plotted character 
-							credits white inside a speeding comic. The naughty software explodes red over any 
-							unwilling actor. Should red trek next to a steep dilemma?
-						</p>
+						<div class="container-h2">
+							<h2 class="content-font">Info About Me</h2>
+						</div>
+						<div class="content-font light-font">
+							<p>
+								Software engineering graduate specializing in designing and developing iOS applications and highly dynamic web pages. 
+								Previous experience developing Java and Windows-based applications. 
+							</p><p>
+								Well-versed in modern software requirements analysis, object-oriented design and quality assurance. 
+								Educated in artificial intelligence, computer graphics, human-computer interaction, operations systems, networking, information security and emerging web technologies. 
+							</p><p>
+								Possess in-depth knowledge of SQL and relational databases. 
+								Learned in project management processes and technological entrepreneurship. Coordinated with clients on a number of independent freelance projects.
+							</p>
+						</div>
 						<div id="MindMyFamilyContainer" class="img-container">
 							<noscript>
 								<img id="MindMyFamily" alt="Mind My Family" src="logo_mindmyfamily.png">
 							</noscript>
 						</div>
-						<p class="content-font dark-font">
-							The prior volume refreshes an appointed day. 
-							Red breathes! Red pinks the evil burst. The wanted vinyl spikes the postcard. 
-							White pauses with red. A mob swims. White bests the cry. Whatever plotted character 
-							credits white inside a speeding comic. The naughty software explodes red over any 
-							unwilling actor. Should red trek next to a steep dilemma?
-						</p>
+						<div class="content-font dark-font">
+							<p>
+								Lead the development of Mind My Family for iPhone, a real-time family safety application with extensive location-based features.
+								Implemented user authentication, GPS and accelerometer reporting, electronic fence scheduling, user permissions, push notifications, local database storage and server synchronization.
+							</p><p>
+								Created an intuitive and responsive user interface with subtle view transitions and animations.
+								Assisted in both front end and back end development of the Mind My Family secure web application (desktop and mobile versions).
+								Added user registration, electronic fence setup and messaging to the website.
+								Resolved several browser compatibility issues and lead email campaign.
+							</p><p>
+								Collaborated closely with all other team members to discuss and align objectives.
+							</p>
+						</div>
 						<div id="ZenAwakeContainer" class="img-container">
 							<noscript>
 								<img id="ZenAwake" alt="ZenAwake" src="zenawake.png">
 							</noscript>
 						</div>
 						<p class="content-font light-font">
-							The prior volume refreshes an appointed day. 
-							Red breathes! Red pinks the evil burst. The wanted vinyl spikes the postcard. 
-							White pauses with red. A mob swims. White bests the cry. Whatever plotted character 
-							credits white inside a speeding comic. The naughty software explodes red over any 
-							unwilling actor. Should red trek next to a steep dilemma?
+							Completed a development contract for an iPhone alarm clock application with daily inspirational quotes and a golden ratio inspired alarm schedule.
+							Featured on <a class="no-underline" href="http://lifehacker.com/5981368/zenawake-for-iphone-wakes-you-up-gently-offers-a-better-start-to-your-day">lifehacker.com</a>
 						</p>
 						<div id="CampusFlowContainer" class="img-container">
 							<noscript>
@@ -120,11 +122,7 @@
 							</noscript>
 						</div>
 						<p class="content-font dark-font">
-							The prior volume refreshes an appointed day. 
-							Red breathes! aa a Red pinks the evil burst. The wanted vinyl spikes the postcard. 
-							White pauses with red. A mob swims. White bests the cry. Whatever plotted character 
-							credits white inside a speeding comic. The naughty software explodes red over any 
-							unwilling actor. Should red trek next to a steep dilemma?
+							Created a location-based, social networking iOS app, which enabled users to view one another's real-time locations on a navigable campus map.
 						</p>
 						<div id="CorporateImagesContainer" class="img-container">
 							<noscript>
@@ -132,163 +130,44 @@
 							</noscript>
 						</div>
 						<p class="content-font light-font">
-							The prior volume refreshes an appointed day. 
-							Red breathes! Red pinks the evil burst. The wanted vinyl spikes the postcard. 
-							White pauses with red. A mob swims. White bests the cry. Whatever plotted character 
-							credits white inside a speeding comic. The naughty software explodes red over any 
-							unwilling actor. Should red trek next to a steep dilemma?
+							Modified nearly all in-house C++ applications and Access database schemas to meet new functional requirements and usability objectives. 
+							Refactored source codes and documented internal architecture to make programs more comprehensive and maintainable.
 						</p>
 						<div id="WesternEngineeringContainer" class="img-container">
 							<noscript>
 								<img id="WesternEngineering" alt="Western Engineering" src="uwo_we.png">
 							</noscript>
 						</div>
-						<p class="content-font dark-font">
-							The prior volume refreshes an appointed day. 
-							Red breathes! Red pinks the evil burst. The wanted vinyl spikes the postcard. 
-							White pauses with red. A mob swims. White bests the cry. Whatever plotted character 
-							credits white inside a speeding comic. The naughty software explodes red over any 
-							unwilling actor. Should red trek next to a steep dilemma?
-						</p>
+						<div class="content-font dark-font">
+							<h3>4th Year</h3>
+							<p>
+								<strong>Required:</strong> Business, Engineering Ethics & Law, Information Security, Software Engineering Design II, Software Testing, Software Quality & Reliability
+							</p><p>
+								<strong>Electives:</strong> AI I, AI II, Graphics (OpenGL), Technological Entrepreneurship & Innovation
+							</p>
+							<h3>3rd Year</h3>
+							<p>
+								<strong>Required:</strong> Database Management Systems, Human-Computer Interaction, Microprocessors (Assembly), Networking, Networking Applications (C#), Operating Systems, Software Engineering Design, Software Project Management, Software Requirements & Analysis, State Machines, Web technologies
+							</p>
+							<h3>2nd Year</h3>
+							<p>
+								<strong>Required:</strong> Algorithms & Data Structures, C & Unix, Calculus II, Computer Science II (C++), Discrete Mathematics, Electrical Engineering, Electrical Engineering II, Object Oriented Design, Probability & Statistics, Technical Communications
+							</p><p>
+								<strong>Elective:</strong> Origin & Geology of the Solar System
+							</p>
+							<h3>1st Year</h3>
+							<p>
+								<strong>Required:</strong> Algebra, Calculus, Chemistry, Computer Science (Java), Design, Materials, Physics, Statics
+							</p><p>
+								<strong>Elective:</strong> Economics
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
 			
 			<div id="Footer"></div>
 		</div>
-		
-		<script type="text/javascript" src="ImgSrc.js"></script>
-		<script type="text/javascript" src="jquery-1.9.1.js"></script>
-		<script type="text/javascript" src="modernizr.js"></script>
-		<script>
-			window.onload = enableJavascriptFeatures();
-			
-			function enableJavascriptFeatures() {
-				$("#Content").fadeOut(0);
-				$("#Content").fadeIn(800, "swing");
-			
-				// Pagination dots
-				document.getElementById('HeaderActiveWrapper').style.display = "block";
-				
-				// Attach event listeners
-				document.getElementById('InfoLink').addEventListener("click", function(){updateActiveIndicator(0)});
-				document.getElementById('BlogLink').addEventListener("click", function(){updateActiveIndicator(1)});
-				document.getElementById('SearchButtonWrapper').addEventListener("click", function(){setSearchFocus()});
-				
-				// Inject img tags
-				updateImgData();
-				
-				// Search button
-				var browserWidth = $(window).width();
-				if(browserWidth >= 950) {
-					document.getElementById('SearchButtonWrapper').style.display = "inline-block";
-				} else {
-					document.getElementById('SearchButtonWrapper').style.display = "none";
-					
-					if(browserWidth <= 640) {
-						$('#HeaderButtonWrapper').addClass('header-button-tight');
-						$('#HeaderActiveWrapper').addClass('header-active-tight');
-						$('#InfoHeaderLeftMargin').addClass('display-none');
-					} else {
-						$('#HeaderButtonWrapper').removeClass('header-button-tight');
-						$('#HeaderActiveWrapper').removeClass('header-active-tight');
-						$('#InfoHeaderLeftMargin').removeClass('display-none');
-					}
-				}
-			}
-			
-			function updateActiveIndicator(mode) {
-				var infoActiveElement = document.getElementById("InfoActive");
-				var blogActiveElement = document.getElementById("BlogActive");
-				
-				if (mode === 0) {
-					infoActiveElement.style.display = "block";
-					blogActiveElement.style.display = "none";
-					$("#Content").fadeOut(0);
-					$("#Content").fadeIn(800, "swing");
-				} else { // mode === 1
-					infoActiveElement.style.display = "none";
-					blogActiveElement.style.display = "block";
-					$("#Content").fadeOut(0);
-					$("#Content").fadeIn(800, "swing");
-				}
-			}
-			
-			function setSearchFocus() {
-				setTimeout(function(){document.getElementById('SearchText').focus();}, 1000);
-			}
-			
-			window.onresize = function(event) {
-				var browserWidth = $(window).width();
-				if(browserWidth >= 960) {
-					document.getElementById('SearchButtonWrapper').style.display = "inline-block";
-				} else {
-					document.getElementById('SearchButtonWrapper').style.display = "none";
-					
-					if(browserWidth <= 640) {
-						$('#HeaderButtonWrapper').addClass('header-button-tight');
-						$('#HeaderActiveWrapper').addClass('header-active-tight');
-						$('#InfoHeaderLeftMargin').addClass('display-none');
-					} else {
-						$('#HeaderButtonWrapper').removeClass('header-button-tight');
-						$('#HeaderActiveWrapper').removeClass('header-active-tight');
-						$('#InfoHeaderLeftMargin').removeClass('display-none');
-					}
-				}
-			}
-			
-			$(document).ready(function() {
-			
-				/* Cube Style With Animate */
-				$('.search-button').click(function() {
-		
-					$(this).stop().animate({'width':'300px'}, 500, function() {
-			
-						$('.search-container').addClass('switch-show');
-						$('.search-box').addClass('show-search-box');
-			
-						setTimeout(function(){
-		
-							$('.search-container').removeClass('switch-show');
-							$('.search-button').removeClass('show-search-button').addClass('hide-search-button');
-							$('.search-box').addClass('showed-search-box');
-			
-						},480);
-			
-					});
-				});
-	
-				$('.search-box img').click(function() {
-		
-		
-					$('.search-button').removeClass('hide-search-button');
-					$('.search-box').addClass('hidden-search-box');
-					$('.search-container').addClass('switch-hide');
-		
-					$('.search-button').addClass('show-search-button').stop().delay(500).animate({'width':'50px'}, 500, function() {
-			
-						$('.search-container').removeClass('switch-hide');
-						$('.search-button').removeClass('show-search-button');
-						$('.search-box').removeClass('show-search-box showed-search-box hidden-search-box');
-			
-					});
-				});
-
-				if(!Modernizr.input.placeholder){
-					$("input").each( function(){
-				
-							thisPlaceholder = $(this).attr("placeholder");
-				
-							if(thisPlaceholder!=""){
-					
-								$(this).val(thisPlaceholder);
-					
-								$(this).focus(function(){ if($(this).val() == thisPlaceholder) $(this).val(""); });
-								$(this).blur(function(){ if($(this).val()=="") $(this).val(thisPlaceholder); });
-							}
-					});
-				}
-			});		
-		</script>
+		<script type="text/javascript" src="main.js"></script>
 	</body>
 </html>
